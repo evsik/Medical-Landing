@@ -209,10 +209,14 @@ main {
 }
 
 .pluses-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .pluses-article {
     background-color: #43b1d2;
+    text-align: center;
+    padding: 20% 15% 15% 15%;
 }
 
 .pluses-article:nth-child(2) {
@@ -228,12 +232,23 @@ main {
 }
 
 .pluses-article-img {
+    margin-bottom: 10px;
 }
 
 .pluses-article-head {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5vmax;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .pluses-article-text {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1vmax;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 
@@ -257,6 +272,18 @@ main {
 
     .slider-block {
         padding: 10% 0 10% 2%;
+    }
+
+    .pluses-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pluses-article-head {
+        font-size: 2vmax;
+    }
+
+    .pluses-article-text {
+        font-size: 1.5vmax;
     }
 }
 
@@ -310,10 +337,6 @@ main {
         margin-bottom: 10px;
     }
 
-    .slider {
-        /*background-position: center;*/
-    }
-
     .slider-block-head {
         margin-bottom: 15px;
         font-size: 32px;
@@ -322,6 +345,14 @@ main {
     .slider-block-text {
         margin-bottom: 15px;
         font-size: 12px;
+    }
+
+    .pluses-article {
+        padding: 8%;
+    }
+
+    .pluses-article-text {
+        line-height: 15px;
     }
 }
 
