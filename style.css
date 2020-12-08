@@ -151,6 +151,22 @@ header::after {
 .fa-facebook-f, .fa-google-plus-g, .fa-vk, .fa-youtube, .fa-linkedin-in {
 }
 
+main{
+    flex-grow: 1;
+}
+
+.slider{}
+
+.slider-block{
+}
+
+.slider-block-head{}
+
+.slider-block-text{}
+
+.slider-block-button{}
+
+
 
 @media screen and (max-width: 1200px) {
 }
