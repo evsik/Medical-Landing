@@ -208,6 +208,34 @@ main {
     opacity: 0.5;
 }
 
+.pluses-block {
+}
+
+.pluses-article {
+    background-color: #43b1d2;
+}
+
+.pluses-article:nth-child(2) {
+    background-color: #3fb6c6;
+}
+
+.pluses-article:nth-child(3) {
+    background-color: #3cbbbb;
+}
+
+.pluses-article:nth-child(4) {
+    background-color: #37c3a8;
+}
+
+.pluses-article-img {
+}
+
+.pluses-article-head {
+}
+
+.pluses-article-text {
+}
+
 
 @media screen and (max-width: 1200px) {
 }
