@@ -13,11 +13,118 @@ body {
     margin: 0 auto;
 }
 
-.container{
+.container {
     max-width: 1600px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+header {
+    padding: 1% 10% 2% 10%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+}
+
+header::after {
+    content: "";
+    border-bottom: 1px solid #c2c2c2;
+    width: calc(100% - 20%);
+    position: absolute;
+    bottom: 0;
+    justify-self: center;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+}
+
+.header-logo-img {
+}
+
+.header-time {
+    display: flex;
+}
+
+.header-time-text, .header-email-text, .header-phone-text {
+    color: #6a6a6a;
+    font-family: "Open Sans", sans-serif;
+    /*font-size: 15px;*/
+    font-size: 1.1vmax;
+    font-weight: 400;
+    line-height: 22px;
+    align-self: center;
+}
+
+.header-time-text span, .header-email-text span, .header-phone-text span {
+    font-weight: 700;
+}
+
+.fa-clock, .fa-envelope, .fa-mobile-alt {
+    margin-right: 10px;
+    background-color: #1a9bdc;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 14px;
+    color: #ffffff;
+}
+
+.header-email {
+    display: flex;
+    justify-self: center;
+}
+
+.header-phone {
+    display: flex;
+    justify-self: end;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 15px;
+    }
+
+    .header-logo {
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 1% 10% 4% 10%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .header-contacts {
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .header-time-text, .header-email-text, .header-phone-text {
+        font-size: 1.8vmax;
+    }
+
+    .header-time, .header-email, .header-phone {
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 350px) {
 }
 
