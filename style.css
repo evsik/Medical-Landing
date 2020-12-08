@@ -151,21 +151,62 @@ header::after {
 .fa-facebook-f, .fa-google-plus-g, .fa-vk, .fa-youtube, .fa-linkedin-in {
 }
 
-main{
+main {
     flex-grow: 1;
 }
 
-.slider{}
-
-.slider-block{
+.slider {
+    background: url("images/background-main.jpg") no-repeat;
+    background-size: cover;
 }
 
-.slider-block-head{}
+.slider-block {
+    width: fit-content;
+    padding: 10% 0 10% 12%;
+    text-align: center;
+}
 
-.slider-block-text{}
+.slider-block-head {
+    margin-bottom: 30px;
+    color: #474747;
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
 
-.slider-block-button{}
+}
 
+.slider-block-text {
+    color: #3f3f3f;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.slider-block-button {
+    border-radius: 40px;
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+    background-color: #1a9bdc;
+    width: 166px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.slider-block-button:hover {
+    opacity: 0.7;
+}
+
+.slider-block-button:active, .socials-link:active, .menu-link:active {
+    opacity: 0.5;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -185,6 +226,10 @@ main{
     .menu-link {
         font-size: 16px;
     }
+
+    .slider-block {
+        padding: 10% 0 10% 2%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -195,6 +240,14 @@ main{
     .navigation-block {
         flex-flow: wrap-reverse;
         justify-content: center;
+    }
+
+    .slider-block-head {
+        font-size: 40px;
+    }
+
+    .slider-block-text {
+        font-size: 14px;
     }
 }
 
@@ -227,6 +280,20 @@ main{
 
     .socials {
         margin-bottom: 10px;
+    }
+
+    .slider {
+        /*background-position: center;*/
+    }
+
+    .slider-block-head {
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+
+    .slider-block-text {
+        margin-bottom: 15px;
+        font-size: 12px;
     }
 }
 
