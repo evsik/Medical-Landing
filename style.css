@@ -320,6 +320,46 @@ main {
     clear: both;
 }
 
+.second-slider {
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-top: 10%;
+    text-align: center;
+    background: #0087be url("images/blue-back-2.png") no-repeat;
+    background-size: cover;
+}
+
+.second-slider-section {
+    align-self: self-end;
+}
+
+.second-slider-section:nth-child(3) .second-slider-section-img {
+    vertical-align: super;
+}
+
+.second-slider-section-img {
+    margin-bottom: 15px;
+}
+
+
+.second-slider-section-head {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.second-slider-section-text {
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
 
 @media screen and (max-width: 1200px) {
 }
@@ -353,6 +393,11 @@ main {
 
     .pluses-article-text {
         font-size: 1.5vmax;
+    }
+
+    .second-slider {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
     }
 }
 
@@ -452,6 +497,14 @@ main {
 
     .about-us-article-text {
         font-size: 14px;
+    }
+
+    .second-slider-section-head {
+        font-size: 45px;
+    }
+
+    .second-slider-section-text {
+        font-size: 16px;
     }
 }
 
