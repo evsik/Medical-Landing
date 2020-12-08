@@ -13,6 +13,11 @@ body {
     margin: 0 auto;
 }
 
+.padding-site {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -251,6 +256,70 @@ main {
     line-height: 30px;
 }
 
+.about-us-block {
+    padding-top: 6%;
+    padding-bottom: 5%;
+    background: url("images/background-for-about.png") no-repeat center bottom;
+}
+
+.about-us-block-head {
+    margin-bottom: 30px;
+    color: #494949;
+    font-family: Montserrat, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-us-block-text {
+    margin-bottom: 10%;
+    color: #6a6a6a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.about-us-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 100px;
+}
+
+.about-us-article {
+
+}
+
+.about-us-article:nth-child(even) {
+    justify-self: end;
+}
+
+.about-us-article-img {
+    float: left;
+}
+
+.about-us-article-head {
+    color: #6f6f6e;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.about-us-article-text {
+    color: #6a6a6a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 10px;
+    clear: both;
+}
+
 
 @media screen and (max-width: 1200px) {
 }
@@ -304,6 +373,20 @@ main {
     .slider-block-text {
         font-size: 14px;
     }
+
+    .about-us-block {
+        background: none;
+    }
+
+    .about-us-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        justify-items: center;
+    }
+
+    .about-us-article:nth-child(even) {
+        justify-self: inherit;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -344,7 +427,7 @@ main {
 
     .slider-block-text {
         margin-bottom: 15px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .pluses-article {
@@ -353,6 +436,22 @@ main {
 
     .pluses-article-text {
         line-height: 15px;
+    }
+
+    .about-us-block-head {
+        font-size: 32px;
+    }
+
+    .about-us-block-text {
+        font-size: 14px;
+    }
+
+    .about-us-article-head {
+        font-size: 26px;
+    }
+
+    .about-us-article-text {
+        font-size: 14px;
     }
 }
 
