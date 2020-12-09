@@ -529,6 +529,77 @@ main {
     width: 100%;
 }
 
+.our-team-block {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+}
+
+.our-team-head {
+    margin-bottom: 30px;
+    color: #494949;
+    font-family: Montserrat, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.our-team-text {
+    color: #6a6a6a;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.our-team-block ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    grid-gap: 15px;
+}
+
+.our-team-list {
+}
+
+.our-team-img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.our-team-doctor {
+    color: #6f6f6e;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.our-team-position {
+    color: #6f6f6e;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.our-team-socials {
+    color: #0087be;
+    font-size: 25px;
+}
+
+.our-team-socials i {
+    margin-right: 10px;
+}
+
+.our-team-socials i:last-child {
+    margin-right: 0;
+}
+
+.our-team-socials i:nth-child(n+2) {
+    vertical-align: text-bottom;
+}
+
 @media screen and (max-width: 1300px) {
     .describe-block {
         grid-template-columns: 1fr;
@@ -741,6 +812,10 @@ main {
         font-size: 14px;
         line-height: 20px;
         margin-bottom: 15px;
+    }
+
+    .our-team-block ul {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
