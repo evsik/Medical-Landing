@@ -1,0 +1,235 @@
+@media screen and (max-width: 1300px) {
+    .describe-block {
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+        text-align: center;
+    }
+
+    .our-creative-block ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our-creative-block-list {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 15px;
+    }
+
+    .header-logo {
+        justify-self: center;
+    }
+
+    .menu-link {
+        font-size: 16px;
+    }
+
+    .slider-block {
+        padding: 10% 0 10% 2%;
+    }
+
+    .pluses-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pluses-article-head {
+        font-size: 2vmax;
+    }
+
+    .pluses-article-text {
+        font-size: 1.5vmax;
+    }
+
+    .second-slider {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+    }
+
+    .slider-special-offer {
+        flex-direction: column;
+    }
+
+    .special-offer-head {
+        margin-right: 0;
+        margin-bottom: 5%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 1% 10% 4% 10%;
+    }
+
+    .navigation-block {
+        flex-flow: wrap-reverse;
+        justify-content: center;
+    }
+
+    .slider-block-head {
+        font-size: 40px;
+    }
+
+    .slider-block-text {
+        font-size: 14px;
+    }
+
+    .about-us-block {
+        background: none;
+    }
+
+    .about-us-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+        justify-items: center;
+    }
+
+    .about-us-article:nth-child(even) {
+        justify-self: inherit;
+    }
+
+    .slider-gallery-wrapper-photos ul {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-contacts {
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .header-time-text, .header-email-text, .header-phone-text {
+        font-size: 1.8vmax;
+    }
+
+    .header-time, .header-email, .header-phone {
+        margin-bottom: 5%;
+    }
+
+    .navigation-block {
+        justify-content: space-between;
+    }
+
+    .menu ul {
+        flex-flow: column;
+    }
+
+    .menu-list {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .socials {
+        margin-bottom: 10px;
+    }
+
+    .slider-block-head {
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+
+    .slider-block-text {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .pluses-article {
+        padding: 8%;
+    }
+
+    .pluses-article-text {
+        line-height: 15px;
+    }
+
+    .about-us-block-head {
+        font-size: 32px;
+    }
+
+    .about-us-block-text {
+        font-size: 14px;
+    }
+
+    .about-us-article-head {
+        font-size: 26px;
+    }
+
+    .about-us-article-text {
+        font-size: 14px;
+    }
+
+    .second-slider-section-head {
+        font-size: 45px;
+    }
+
+    .second-slider-section-text {
+        font-size: 16px;
+    }
+
+    .archive-block-head {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .archive-block-text {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .describe-block-article-head {
+        font-size: 38px;
+    }
+
+    .describe-block-article-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .our-creative-block-list-head {
+        font-size: 14px;
+    }
+
+    .our-creative-block ul {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .our-creative-block-list {
+        max-width: 400px;
+    }
+
+    .invisible-block-active {
+        width: 100%;
+        text-align: -webkit-center;
+    }
+
+    .slider-gallery-head {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .slider-gallery-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .our-team-block ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .special-offer-head {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+}
