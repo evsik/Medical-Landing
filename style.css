@@ -618,4 +618,38 @@ main {
     font-weight: 700;
 }
 
+footer {
+    flex-shrink: 0;
+}
+
+.footer-wrapper-info{}
+
+.footer-blocks{}
+
+.footer-blocks ul{}
+
+.footer-blocks-list{}
+
+.footer-blocks-head{}
+
+.footer-blocks-list-icon{}
+
+.footer-blocks-list-text{}
+
+.footer-blocks-list i{}
+
+.footer-blocks-link{}
+
+.footer-blocks-form{}
+
+.input-name{}
+
+.input-tel{}
+
+.input-message{}
+
+.input-submit{}
+
+
+
 
