@@ -383,7 +383,7 @@ main {
     margin-bottom: 20px;
 }
 
-.describe-block-article-text {
+.describe-block-article-text, .invisible-block {
     color: #6a6a6a;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -403,6 +403,7 @@ main {
 
 .archive-block-img {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .archive-block-head {
@@ -478,6 +479,14 @@ main {
     margin-right: 10px;
 }
 
+.invisible-block {
+    display: none;
+}
+
+.invisible-block-active:hover .invisible-block {
+    display: block;
+}
+
 
 @media screen and (max-width: 1300px) {
     .describe-block {
@@ -494,10 +503,6 @@ main {
     .our-creative-block-list {
         width: 100%;
         text-align: left;
-    }
-
-    .archive-block-img {
-        width: 100%;
     }
 }
 
@@ -642,6 +647,43 @@ main {
 
     .second-slider-section-text {
         font-size: 16px;
+    }
+
+    .archive-block-head {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .archive-block-text {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .describe-block-article-head {
+        font-size: 38px;
+    }
+
+    .describe-block-article-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .our-creative-block-list-head {
+        font-size: 14px;
+    }
+
+    .our-creative-block ul {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .our-creative-block-list {
+        max-width: 400px;
+    }
+
+    .invisible-block-active {
+        width: 100%;
+        text-align: -webkit-center;
     }
 }
 
