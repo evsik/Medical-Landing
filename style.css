@@ -487,6 +487,24 @@ main {
     display: block;
 }
 
+.slider-gallery-block {
+    background: url("images/green-back-slider.png") no-repeat;
+    background-size: cover;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.slider-gallery-head{}
+
+.slider-gallery-text{}
+
+.slider-gallery-wrapper-photos{}
+
+.slider-gallery-wrapper-photos ul {}
+
+.slider-gallery-list{}
+
+.slider-gallery-img{}
 
 @media screen and (max-width: 1300px) {
     .describe-block {
