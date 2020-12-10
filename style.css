@@ -60,8 +60,8 @@ header::after {
 .header-time-text, .header-email-text, .header-phone-text {
     color: #6a6a6a;
     font-family: "Open Sans", sans-serif;
-    /*font-size: 15px;*/
-    font-size: 1.1vmax;
+    font-size: 15px;
+    /*font-size: 1.1vmax;*/
     font-weight: 400;
     line-height: 22px;
     align-self: center;
@@ -206,11 +206,12 @@ main {
     line-height: 47px;
 }
 
-.slider-block-button:hover, .describe-block-article-button:hover {
+.slider-block-button:hover, .describe-block-article-button:hover, .input-submit:hover {
     opacity: 0.7;
 }
 
-.slider-block-button:active, .socials-link:active, .menu-link:active, .describe-block-article-button:active {
+.slider-block-button:active, .socials-link:active, .menu-link:active, .describe-block-article-button:active,
+.input-submit:active {
     opacity: 0.5;
 }
 
@@ -415,6 +416,13 @@ main {
     margin-bottom: 20px;
 }
 
+.archive-block-head span {
+    color: #0087be;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .archive-block-text {
     color: #6a6a6a;
     font-family: "Open Sans", sans-serif;
@@ -459,6 +467,15 @@ main {
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+.invisible-block-active:hover .our-creative-block-list {
+    background-color: #e2e2e2;
+}
+
+.invisible-block-active:hover .our-creative-block-list-head {
+    color: black;
+}
+
 
 .our-creative-block-list-head {
     color: #ffffff;
@@ -654,6 +671,10 @@ footer {
     color: white;
 }
 
+.footer-blocks-list .socials i:hover {
+    opacity: 0.5;
+}
+
 .footer-blocks-list-address {
     display: flex;
     margin-bottom: 40px;
@@ -698,6 +719,10 @@ footer {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+}
+
+.footer-blocks-link:hover {
+    opacity: 1;
 }
 
 .footer-blocks-form {

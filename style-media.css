@@ -1,4 +1,8 @@
 @media screen and (max-width: 1300px) {
+    .header-time-text, .header-email-text, .header-phone-text {
+        font-size: 12px;
+    }
+
     .describe-block {
         grid-template-columns: 1fr;
         grid-row-gap: 30px;
@@ -114,6 +118,10 @@
         justify-content: center;
     }
 
+    .header-time-text, .header-email-text, .header-phone-text {
+        font-size: 10px;
+    }
+
     .slider-block-head {
         font-size: 40px;
     }
@@ -148,8 +156,8 @@
         justify-self: center;
     }
 
-    .header-time-text, .header-email-text, .header-phone-text {
-        font-size: 1.8vmax;
+    .header-time-text, .header-email-text, .header-phone-text{
+        font-size: 12px;
     }
 
     .header-time, .header-email, .header-phone {
