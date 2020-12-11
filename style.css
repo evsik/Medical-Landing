@@ -47,12 +47,6 @@ header::after {
     justify-content: space-between;
 }
 
-.header-logo {
-}
-
-.header-logo-img {
-}
-
 .header-time {
     display: flex;
 }
@@ -61,7 +55,6 @@ header::after {
     color: #6a6a6a;
     font-family: "Open Sans", sans-serif;
     font-size: 15px;
-    /*font-size: 1.1vmax;*/
     font-weight: 400;
     line-height: 22px;
     align-self: center;
@@ -99,9 +92,6 @@ header::after {
     padding: 2% 10%;
 }
 
-.menu {
-}
-
 .menu ul {
     list-style-type: none;
     display: flex;
@@ -119,7 +109,6 @@ header::after {
     padding-right: 0;
 }
 
-
 .menu-link {
     font-family: "Open Sans", sans-serif;
     color: #6c6c6c;
@@ -130,9 +119,6 @@ header::after {
 
 .menu-link:hover {
     color: #191919;
-}
-
-.socials {
 }
 
 .socials ul {
@@ -151,9 +137,6 @@ header::after {
 
 .socials-link:hover {
     color: #6c6c6c;
-}
-
-.fa-facebook-f, .fa-google-plus-g, .fa-vk, .fa-youtube, .fa-linkedin-in {
 }
 
 main {
@@ -289,10 +272,6 @@ main {
     grid-row-gap: 100px;
 }
 
-.about-us-article {
-
-}
-
 .about-us-article:nth-child(even) {
     justify-self: end;
 }
@@ -400,9 +379,6 @@ main {
     grid-column-gap: 30px;
 }
 
-.archive-block {
-}
-
 .archive-block-img {
     margin-bottom: 20px;
     width: 100%;
@@ -450,9 +426,6 @@ main {
     justify-self: center;
 }
 
-.our-creative-block {
-}
-
 .our-creative-block ul {
     list-style-type: none;
 }
@@ -475,7 +448,6 @@ main {
 .invisible-block-active:hover .our-creative-block-list-head {
     color: black;
 }
-
 
 .our-creative-block-list-head {
     color: #ffffff;
@@ -530,17 +502,11 @@ main {
     margin-bottom: 30px;
 }
 
-.slider-gallery-wrapper-photos {
-}
-
 .slider-gallery-wrapper-photos ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-}
-
-.slider-gallery-list {
 }
 
 .slider-gallery-img {
@@ -575,9 +541,6 @@ main {
     grid-template-columns: repeat(4, 1fr);
     list-style-type: none;
     grid-gap: 15px;
-}
-
-.our-team-list {
 }
 
 .our-team-img {
@@ -646,9 +609,6 @@ footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 15px;
-}
-
-.footer-blocks {
 }
 
 .footer-blocks:nth-child(2), .footer-blocks:nth-child(3) {
@@ -725,9 +685,6 @@ footer {
     opacity: 1;
 }
 
-.footer-blocks-form {
-}
-
 .input-name, .input-tel, .input-message {
     width: 80%;
     color: #ffffff;
@@ -740,9 +697,6 @@ footer {
     border: none;
     border-bottom: 1px solid #c2c2c2;
     outline: none;
-}
-
-.input-tel {
 }
 
 .input-message {
@@ -765,7 +719,3 @@ footer {
     height: 35px;
     box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
 }
-
-
-
-
