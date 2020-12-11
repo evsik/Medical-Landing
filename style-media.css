@@ -191,12 +191,21 @@
         font-size: 14px;
     }
 
+    .pluses-block {
+        grid-template-columns: 1fr;
+    }
+
     .pluses-article {
         padding: 8%;
     }
 
+    .pluses-article-head{
+        font-size: 3vmax;
+    }
+
     .pluses-article-text {
         line-height: 15px;
+        font-size: 2vmax;
     }
 
     .about-us-block-head {
