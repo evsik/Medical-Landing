@@ -122,6 +122,10 @@
         font-size: 14px;
     }
 
+    .our-team-block ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .about-us-block {
         background: none;
     }
@@ -268,7 +272,7 @@
     }
 
     .our-team-block ul {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .special-offer-head {
