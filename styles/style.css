@@ -236,7 +236,7 @@ main {
 .pluses-article-head {
     color: #ffffff;
     font-family: Montserrat, sans-serif;
-    font-size: 1.5vmax;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 15px;
 }
@@ -244,7 +244,7 @@ main {
 .pluses-article-text {
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
-    font-size: 1vmax;
+    font-size: 14px;
     font-weight: 400;
     line-height: 30px;
 }
