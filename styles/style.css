@@ -13,6 +13,14 @@ body {
     margin: 0 auto;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
 .padding-site {
     padding-left: 10%;
     padding-right: 10%;
@@ -144,7 +152,7 @@ main {
 }
 
 .slider {
-    background: url("images/background-main.jpg") no-repeat;
+    background: url("../images/background-main.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -244,7 +252,7 @@ main {
 .about-us-block {
     padding-top: 6%;
     padding-bottom: 5%;
-    background: url("images/background-for-about.png") no-repeat center bottom;
+    background: url("../images/background-for-about.png") no-repeat center bottom;
 }
 
 .about-us-block-head {
@@ -308,7 +316,7 @@ main {
     justify-items: center;
     padding-top: 10%;
     text-align: center;
-    background: #0087be url("images/blue-back-2.png") no-repeat;
+    background: #0087be url("../images/blue-back-2.png") no-repeat;
     background-size: cover;
 }
 
@@ -483,7 +491,7 @@ main {
     padding-top: 6%;
     padding-bottom: 6%;
     text-align: center;
-    background: #38b69e url("images/green-back-slider.png") no-repeat;
+    background: #38b69e url("../images/green-back-slider.png") no-repeat;
 }
 
 .slider-gallery-head {
