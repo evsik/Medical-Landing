@@ -157,8 +157,13 @@ main {
 }
 
 .slider {
-    background: url("../images/background-main.jpg") no-repeat;
+    background: url("../images/medicarePlan-1.jpg") no-repeat center center;
     background-size: cover;
+    animation: slider-anim 30s linear infinite 0s;
+}
+
+.photos-for-back{
+    display: none;
 }
 
 .slider-block {
@@ -201,6 +206,7 @@ main {
     width: 166px;
     height: 47px;
     line-height: 47px;
+    transition-duration: 1s;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -420,7 +426,7 @@ main {
     font-weight: 500;
 }
 
-.archive-block-text {
+.archive-block-text, .invisible-slider-gallery-text {
     color: #6a6a6a;
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -534,7 +540,7 @@ main {
     grid-gap: 30px;
 }
 
-.slider-gallery-list{
+.slider-gallery-list {
     position: relative;
     perspective: 500px;
 }
@@ -548,10 +554,11 @@ main {
     transition-delay: 0.5s;
 }
 
-.invisible-slider-gallery-list{
+.invisible-slider-gallery-list {
+    padding: 5%;
     display: flex;
     justify-content: center;
-    background-color: #0087be;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(45, 208, 253, 0.68531162464986) 100%);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -559,21 +566,26 @@ main {
     transition: transform 0.5s linear, opacity 0.5s step-end;
     transform: rotateY(90deg);
     opacity: 0;
+    /*transition-duration: .5s;*/
+    /*transition-timing-function: linear;*/
 }
 
-.slider-gallery-list:hover .slider-gallery-img{
+.slider-gallery-list:hover .slider-gallery-img {
     transform: rotateY(-90deg);
     transition-delay: 0s;
     visibility: hidden;
 }
 
-.slider-gallery-list:hover .invisible-slider-gallery-list{
+.slider-gallery-list:hover .invisible-slider-gallery-list {
     transform: rotateY(0deg);
     transition: transform 0.5s linear 0.5s, opacity 0.5s step-start;
     transition-delay: 0.5s;
     opacity: 1;
 }
 
+.invisible-slider-gallery-text {
+    color: #ffffff;
+}
 
 .our-team-block {
     padding-top: 6%;
@@ -818,29 +830,3 @@ footer {
     transition: all 1s;
 }
 
-@keyframes anim {
-    from {
-        margin-left: -200px;
-    }
-    to {
-        margin-left: 0;
-    }
-}
-
-@-moz-keyframes anim {
-    from {
-        margin-left: -200px;
-    }
-    to {
-        margin-left: 0;
-    }
-}
-
-@-webkit-keyframes anim {
-    from {
-        margin-left: -200px;
-    }
-    to {
-        margin-left: 0;
-    }
-}

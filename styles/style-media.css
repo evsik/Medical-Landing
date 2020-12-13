@@ -228,7 +228,7 @@
         margin-bottom: 10px;
     }
 
-    .archive-block-text {
+    .archive-block-text, .invisible-slider-gallery-text {
         font-size: 11px;
         line-height: 15px;
     }

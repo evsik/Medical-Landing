@@ -1,0 +1,57 @@
+@keyframes anim {
+    from {
+        margin-left: -200px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@-moz-keyframes anim {
+    from {
+        margin-left: -200px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes anim {
+    from {
+        margin-left: -200px;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes slider-anim {
+    0% {
+        background: url("../images/medicarePlan-1.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    16% {
+        background: url("../images/medicarePlan-1.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    33% {
+        background: url("../images/medicarePlan-2.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    49% {
+        background: url("../images/medicarePlan-2.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    66% {
+        background: url("../images/medicarePlan-3.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    81% {
+        background: url("../images/medicarePlan-3.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    100% {
+        background: url("../images/medicarePlan-1.jpg") no-repeat center center;
+        background-size: cover;
+    }
+}
