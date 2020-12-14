@@ -162,7 +162,7 @@ main {
     animation: slider-anim 30s linear infinite 0s;
 }
 
-.photos-for-back{
+.photos-for-back {
     display: none;
 }
 
@@ -348,6 +348,11 @@ main {
 
 .second-slider-section-img {
     margin-bottom: 15px;
+}
+
+.second-slider-section-img:hover {
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+    animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
 .second-slider-section-head {
